@@ -58,8 +58,10 @@ button {
         color: #fff;
     }
     &:hover {
+        a{
+            color: var(--primary-color);
+        }
         background-color: transparent;
-        color: var(--primary-color);
         border-color: var(--primary-color);
     }
 }
@@ -169,10 +171,10 @@ button {
     margin-top: 60px;
 }
 #contact , #about,  #portofolio{
-    scroll-margin-top: 80px;
+    scroll-margin-top: 120px;
 }
 #Testmonials ,#services {
-    scroll-margin-top: 40px;
+    scroll-margin-top: 100px;
 }
 
 /** Services Section *******/
